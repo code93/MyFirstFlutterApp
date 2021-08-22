@@ -1,0 +1,14 @@
+pow(int num1,int num2) {
+   var data = [];
+  for(num1;num1<=num2;num1++){
+   int power = num1 * num1;
+   data.add("$power");  
+  }
+  return data;
+}
+
+void main() {
+  var a = [];
+ a = pow(1,10000);
+ print(a);
+}
